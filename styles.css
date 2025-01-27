@@ -13,6 +13,7 @@
 }
 
 .card {
+  margin-top: 60px;
   height: 499px;
   width: 320px;
   border-radius: 2%;
