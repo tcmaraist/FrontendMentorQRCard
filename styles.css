@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:wght@500&display=swap");
+
+.body {
+  background-color: #d5e1ef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.card {
+  height: 499px;
+  width: 320px;
+  border-radius: 2%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  tex-align: center;
+}
+
+.card-image {
+  padding-top: 16px;
+}
+
+.card-textbox {
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.card-title {
+  text-align: center;
+  color: slate;
+  font-size: 18px;
+  font-weight: 900;
+  text-shadow: 0px 4px black 4px;
+}
+
+.card-text {
+  text-align: center;
+  color: #68778d;
+  font-weight: 500;
+}
